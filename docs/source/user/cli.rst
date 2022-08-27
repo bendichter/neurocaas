@@ -28,8 +28,8 @@ We use the `AWS CLI <https://aws.amazon.com/cli/>`_ to support a CLI interface t
    - S3 Bucket For Datasets and config files  
 
 We will use this information to set up the CLI and submit work to NeuroCAAS. 
-Once you have this information, please follow the instructions here `AWS CLI <https://aws.amazon.com/cli/>`_ to install the CLI for your platform. Use the AWS Access Key and Secret Access Key you retrieved earlier to configure your CLI when prompted.  
-
+Once you have this information, please follow the instructions here `AWS CLI <https://aws.amazon.com/cli/>`_ to install the CLI for your platform.
+Run ``aws configure`` to enter the AWS Access Key and Secret Access Key you retrieved earlier to configure your CLI when prompted.
 To confirm that installation was successful, run the command :code:`aws s3 ls` and confirm that you see a list of cloud storage buckets. If you do not, contact an AWS administrator with your issues, or submit an issue on GitHub.  
 
 Basic Usage
